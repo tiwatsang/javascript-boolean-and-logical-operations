@@ -1,12 +1,12 @@
 let isOver18 = true;
-let hasCriminalBlacklist = false;
+let hasCriminalBlacklist = true;
 
 
 
 // Start coding here
 let name = "james"
 isOver18 = false
-hasCriminalBlacklist = true
+hasCriminalBlacklist = false
 
 let isAllow = isOver18 && !hasCriminalBlacklist;
 console.log(isAllow);
